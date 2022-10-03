@@ -2,11 +2,7 @@
 
 context("SwagLabs: login page",function(){
 
-    before(function(){
-        cy.visit("https://www.saucedemo.com/")
-        
-    
-        })
+       
 
     describe("test_login_page",()=>{
         this.beforeEach(function(){
